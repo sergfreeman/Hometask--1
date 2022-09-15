@@ -1,0 +1,87 @@
+*,body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+body {
+    background-color: white;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.906);
+
+}
+
+h1 {
+    padding-right: 10%;
+    padding-top: 25px;
+    text-align: right;
+}
+
+h3 {
+    margin: auto;
+    text-align: center;
+}
+
+.section-top {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.div-table-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 5px;
+    background-color: rgb(128, 128, 128);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: lightgrey;
+}
+
+.name,
+.pict {
+    width: 20%;
+    text-align: center;
+    /* background-color: blueviolet; */
+}
+
+.created,
+.category,
+.content,
+.dates {
+    width: 15%;
+    text-align: center;
+}
+
+
+.div-create-btn{
+align-items:flex-end;
+}
+
+.btn-create-note{
+    margin: 10px auto;
+    margin-right: 0px;
+    border-radius: 3px;
+    display: flex;
+    padding: 2px 5px 2px 5px;
+    background-color: grey;
+    color: black;
+    
+}
+
+.btn-create-note:hover{
+    background-color: red;
+    color: black;
+}
+
+#img-bin{
+    margin-left: 125px;
+}
